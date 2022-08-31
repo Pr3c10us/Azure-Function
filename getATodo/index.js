@@ -5,6 +5,7 @@ const { validateTodo, Todo } = require('../db/todoModel');
 
 module.exports = async function (context, req) {
     try {
+        
         //connect to db
         await connectDB(process.env.MONGODB_URI);
         console.log('Connected to MongoDB');
