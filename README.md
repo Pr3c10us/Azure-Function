@@ -1,6 +1,11 @@
 # Azure-Function-Simple-Todo-Api
 This is a simple todo api using Azure Functions and Mongo DB.
-And it would alert user every hour about pending task using a time trigger
+
+## Features
+* Create a todo
+* Get all todos
+* Get a todo
+* Send alert to user mail every hour for all pending tasks
 
 
 ## How to use
@@ -41,3 +46,5 @@ And it would alert user every hour about pending task using a time trigger
 23. Set the request url to the Function Url + the id of the todo you created
 24. Send the request
 
+### Send alert to user mail every hour for all pending tasks
+25. Just Run the Alert Function
