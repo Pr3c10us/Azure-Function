@@ -7,9 +7,11 @@
     "test": "echo \"No tests yet...\""
   },
   "dependencies": {
+    "dotenv": "^16.0.2",
     "http-status-code": "^2.1.0",
     "http-status-codes": "^2.2.0",
     "joi": "^17.6.0",
-    "mongoose": "^6.5.4"
+    "mongoose": "^6.5.4",
+    "nodemailer": "^6.7.8"
   }
 }
