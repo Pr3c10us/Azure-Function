@@ -1,5 +1,6 @@
 # Azure-Function-Simple-Todo-Api
 This is a simple todo api using Azure Functions and Mongo DB.
+And it would alert user every hour about pending task using a time trigger
 
 
 ## How to use
